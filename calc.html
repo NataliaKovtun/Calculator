@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+
+    <title>Calc</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    
+  </head>
+  <body>
+        <div class="container">
+                <div id="calc">Calculator</div>
+            <div id="res">0</div>
+            <div id="op1" style="display:none;"></div>
+            <div id="op2" style="display:none;"></div>
+            <div id="op"  style="display:none;"></div>
+            <div id="flag" style="display:none;">false</div>
+
+                    <div class="row">
+                        <button class="butm">MC</button>
+                        <button class="butm">MR</button>
+                        <button class="butm"><b>M+</b></button>
+                        <button class="butm"><b>M-</b></button>
+                        <button class="butm"><b>MS</b></button>
+                        <button class="butm">M+</button>
+                    </div> 
+            
+                    <div class="row">
+                        <button class="sym">%</button>
+                        <button class="sym">&#8730</button>
+                        <button class="sym">x&#178</button>
+                        <button class="sym">&#185&#8260x</button>
+                    </div>
+            
+                    <div class="row">
+                        <button class="c" onclick="setDefault()">CE</button>
+                        <button class="c" onclick="setDefault()">C</button>
+                        <button class="sym">&#8656</button>
+                        <button class="sym" id="idDil" onclick="return res.innerHTML = setOperation(this,op1,op2,op, flag)">/</button>
+                    </div>
+            
+                    <div class="row">
+                        <button class="num7" id="id7" onclick="return res.innerHTML = setOperand(this,op1,op2, flag)">7</button>
+                        <button class="num8" id="id8" onclick="return res.innerHTML = setOperand(this,op1,op2, flag)">8</button>
+                        <button class="num9" id="id9" onclick="return res.innerHTML = setOperand(this,op1,op2, flag)">9</button>
+
+                        <button class="sym" id="idMn" onclick="return res.innerHTML = setOperation(this,op1,op2,op, flag)">*</button>
+                    </div>
+            
+                    <div class="row">
+                        <button class="num4" id="id4" onclick="return res.innerHTML = setOperand(this,op1,op2, flag)">4</button>
+                        <button class="num5" id="id5" onclick="return res.innerHTML = setOperand(this,op1,op2, flag)">5</button>
+                        <button class="num6" id="id6" onclick="return res.innerHTML = setOperand(this,op1,op2, flag)">6</button>
+
+                        <button class="sym" id="idSub" onclick="return res.innerHTML = setOperation(this,op1,op2,op, flag)">-</button>
+                    </div>
+            
+                    <div class="row">
+                        <button class="num1" id="id1" onclick="return res.innerHTML = setOperand(this,op1,op2, flag)">1</button>
+                        <button class="num2" id="id2" onclick="return res.innerHTML = setOperand(this,op1,op2, flag)">2</button>
+                        <button class="num3" id="id3" onclick="return res.innerHTML = setOperand(this,op1,op2, flag)">3</button>
+
+                        <button class="sym" id="idPlus" onclick="return res.innerHTML = setOperation(this,op1,op2,op, flag)">+</button>
+                    </div>
+            
+                    <div class="row">
+                        <button class="sym">&#177</button>
+                        <button class="num0" id="id0" onclick="return res.innerHTML = setOperand(this,op1,op2, flag)">0</button>
+                        <button class="sym">.</button>
+                        <button class="sym" id="idEq" onclick="return res.innerHTML = calculate(op1,op2,op,flag)">=</button>
+                   </div>
+            
+                
+            
+            </div>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

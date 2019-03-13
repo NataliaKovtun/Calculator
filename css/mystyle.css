@@ -1,0 +1,116 @@
+.container{
+    width: 402px;
+    height: 682px;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid black;
+}
+#res{
+    height: 150px;
+    background-color:white;
+    width: 372px;
+    text-align: right;
+    font-size: 40px;
+}
+.butm{
+    height: 30px;
+    width: 64px;
+    margin: 1px;
+    border: none;
+    font-size: 12px;
+    opacity: .6;
+}
+.sym{
+    width: 98px;
+    height: 77px;
+    border: none;
+    background-color: rgb(238, 234, 234);
+    margin: 1px;
+   
+}
+.c{
+    width: 98px;
+    height: 77px;
+    border: none;
+    background-color: rgb(238, 234, 234);
+    margin: 1px;
+}
+.num1{
+    width: 98px;
+    height: 77px;
+    font-size: 30px;
+    background-color: rgb(190, 187, 187);
+    border: none;
+    margin: 1px;
+}
+.num2{
+    width: 98px;
+    height: 77px;
+    font-size: 30px;
+    background-color: rgb(190, 187, 187);
+    border: none;
+    margin: 1px;
+}
+.num3{
+    width: 98px;
+    height: 77px;
+    font-size: 30px;
+    background-color: rgb(190, 187, 187);
+    border: none;
+    margin: 1px;
+}
+.num4{
+    width: 98px;
+    height: 77px;
+    font-size: 30px;
+    background-color: rgb(190, 187, 187);
+    border: none;
+    margin: 1px;
+}
+.num5{
+    width: 98px;
+    height: 77px;
+    font-size: 30px;
+    background-color: rgb(190, 187, 187);
+    border: none;
+    margin: 1px;
+}
+.num6{
+    width: 98px;
+    height: 77px;
+    font-size: 30px;
+    background-color: rgb(190, 187, 187);
+    border: none;
+    margin: 1px;
+}
+.num7{
+    width: 98px;
+    height: 77px;
+    font-size: 30px;
+    background-color: rgb(190, 187, 187);
+    border: none;
+    margin: 1px;
+}
+.num8{
+    width: 98px;
+    height: 77px;
+    font-size: 30px;
+    background-color: rgb(190, 187, 187);
+    border: none;
+    margin: 1px;
+}
+.num9{
+    width: 98px;
+    height: 77px;
+    font-size: 30px;
+    background-color: rgb(190, 187, 187);
+    border: none;
+    margin: 1px;
+}
+.num0{
+    width: 98px;
+    height: 77px;
+    font-size: 30px;
+    background-color: rgb(190, 187, 187);
+    border: none;
+    margin: 1px;
+}
